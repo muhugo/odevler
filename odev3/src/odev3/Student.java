@@ -1,12 +1,12 @@
 package odev3;
 
-public class Student extends User{
+public class Student extends User {
 	private int StudentId;
 	private String FirstName;
 	private String LastName;
-	
+
 	public Student() {
-		
+
 	}
 
 	public Student(int studentId, String firstName, String lastName) {
@@ -39,6 +39,5 @@ public class Student extends User{
 	public void setLastName(String lastName) {
 		LastName = lastName;
 	}
-	
+
 }
-	

@@ -4,9 +4,9 @@ public class Instructer extends User {
 	private int InstructerId;
 	private String FirstName;
 	private String LastName;
-	 
+
 	public Instructer() {
-		
+
 	}
 
 	public Instructer(int instructerId, String firstName, String lastName) {
@@ -40,9 +40,4 @@ public class Instructer extends User {
 		LastName = lastName;
 	}
 
-		
 }
-	
-	
-	
-	
